@@ -1,0 +1,10 @@
+.creditos__footer {
+    background-color: #1a1b1f;
+    padding-top: 3rem;
+}
+
+.text__footer {
+    color: #ffff;
+    padding-left: 5rem;
+    display: flex;
+}

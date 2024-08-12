@@ -1,0 +1,11 @@
+.text__visitados {
+    margin-top: 1rem;
+    padding-top:  1rem;
+    padding-left: 15rem; 
+    font-size: 25px;
+    color: #ffff;
+}
+
+.section__visitados {
+    margin-bottom: 8rem;
+}

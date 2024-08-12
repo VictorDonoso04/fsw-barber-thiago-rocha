@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="components/style.css">
+    <link rel="stylesheet" href="components/header.css">
+    <link rel="stylesheet" href="components/visitados.css">
+    <link rel="stylesheet" href="components/login.css">
+    <link rel="stylesheet" href="components/populares.css">
+    <link rel="stylesheet" href="components/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <div id="vetor-exibicao"></div>
+    <title>Barbearia</title>
+</head>
+<body class="Sobretudo">
+    <header class="header__1">
+        <div class="esquerda__header">
+        <img src="imagens/scissor.png" alt="Texto_Imagem" class="logo2">
+        <img src="imagens/FSW BARBER.png" alt="Imagem" class="logo">
+    </div>
+    <div class="direita__header">
+        <button class="button__agendamento">
+        <img src="imagens/Calendar.png" alt="Calendario imagem" class="calendario__imagem">
+        <p class="text_calendario">Agendamentos</p>
+        </button>
+        <button class="perfil__header">
+            <img src="imagens/User.png" alt="Imagem do Perfil" class="imagem__perfil">
+            <p class="text__perfil">Perfil</p>
+        </button>
+    </div>
+    </header>
+    <div class="login"> 
+            <div class="esquerda__login">
+            <h2 class="text__h2_login">Olá, <strong class="strong__esquerda_login">Faça seu Login!</strong></h2>
+            <p class="paragrafo__login">Segunda-Feira, 05 de Agosto</p>
+                <div class="input__principal">
+            <input type="text" placeholder="Buscar Barberarias" class="pesquisa__barbearia"></input>
+            <button class="button__pesquisar">
+            <img src="imagens/Icon_Button.png" alt="" class="imagem__busca">
+           </button>
+                </div>
+            </div>
+            <div class="direita__login">
+                <div class="texto__barbearia_recomendados">RECOMENDADOS</div>
+                <section class="direito__barbearias" id="container">
+                  <div class="sessao__barbearia" id="sessao__barbearia01">
+                    <div class="vintage__barber">
+                      <img src="imagens/rating.png" alt="Vintage Barber" class="img__vintagebarber">
+                      <h2 class="texto__vintagebarber" id="titulo__barber">Vintage Barber</h2>
+                      <p class="endereco__vintagebarber" id="endereco__barber">Avenida São Sebastião, 357, São Paulo</p>
+                      <button class="reservar__barber" id="reservar__bottom">Reservar</button>
+                    </div>
+                  </div>
+                  <div class="sessao__barbearia" id="sessao__barbearia02">
+                    <div class="vintage__barber">
+                      <img src="imagens/img.png" alt="Vintage Barber" class="img__vintagebarber">
+                      <h2 class="texto__vintagebarber" id="titulo__barber">Vintage Barber</h2>
+                      <p class="endereco__vintagebarber" id="endereco__barber">Avenida São Sebastião, 357, São Paulo</p>
+                      <button class="reservar__barber" id="reservar__bottom">Reservar</button>
+                    </div>
+                  </div>
+                  <div class="sessao__barbearia" id="sessao__barbearia03">
+                    <div class="vintage__barber">
+                      <img src="imagens/frame.png" alt="Vintage Barber" class="img__vintagebarber">
+                      <h2 class="texto__vintagebarber" id="titulo__barber">Vintage Barber</h2>
+                      <p class="endereco__vintagebarber" id="endereco__barber">Avenida São Sebastião, 357, São Paulo</p>
+                      <button class="reservar__barber" id="reservar__bottom">Reservar</button>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <div class="text__populares">Mais Populares</div>
+            <section class="section__populares" id="container__populares">
+              <div class="populares__barbearias">
+                <div class="vintage__barber_populares">
+                  <img src="imagens/populares__photos/rating05.png" alt="Vintage Barber" class="img__vintagebarber">
+                  <h2 class="texto__vintagebarber" id="titulo__barber__populares">Vintage Barber</h2>
+                  <p class="endereco__vintagebarber" id="endereco__barber__populares">Avenida São Sebastião, 357, São Paulo</p>
+                  <button class="reservar__barber" id="reservar__bottom__populares">Reservar</button>
+                </div>
+              </div>
+              
+              <div class="populares__barbearias">
+                <div class="vintage__barber_populares">
+                  <img src="imagens/populares__photos/rating.png" alt="Vintage Barber" class="img__vintagebarber">
+                  <h2 class="texto__vintagebarber" id="titulo__barber__populares">Vintage Barber</h2>
+                  <p class="endereco__vintagebarber" id="endereco__barber__populares">Avenida São Sebastião, 357, São Paulo</p>
+                  <button class="reservar__barber" id="reservar__bottom__populares">Reservar</button>
+                </div>
+              </div>
+              <div class="populares__barbearias">
+                <div class="vintage__barber_populares">
+                  <img src="imagens/populares__photos/rating01.png" alt="Vintage Barber" class="img__vintagebarber">
+                  <h2 class="texto__vintagebarber" id="titulo__barber__populares">Vintage Barber</h2>
+                  <p class="endereco__vintagebarber" id="endereco__barber__populares">Avenida São Sebastião, 357, São Paulo</p>
+                  <button class="reservar__barber" id="reservar__bottom__populares">Reservar</button>
+                </div>
+              </div>
+              <div class="populares__barbearias">
+                <div class="vintage__barber_populares">
+                  <img src="imagens/populares__photos/rating02.png" alt="Vintage Barber" class="img__vintagebarber">
+                  <h2 class="texto__vintagebarber" id="titulo__barber__populares">Vintage Barber</h2>
+                  <p class="endereco__vintagebarber" id="endereco__barber__populares">Avenida São Sebastião, 357, São Paulo</p>
+                  <button class="reservar__barber" id="reservar__bottom__populares">Reservar</button>
+                </div>
+              </div>
+              <div class="populares__barbearias">
+                <div class="vintage__barber_populares">
+                  <img src="imagens/populares__photos/rating03.png" alt="Vintage Barber" class="img__vintagebarber">
+                  <h2 class="texto__vintagebarber" id="titulo__barber__populares">Vintage Barber</h2>
+                  <p class="endereco__vintagebarber" id="endereco__barber__populares">Avenida São Sebastião, 357, São Paulo</p>
+                  <button class="reservar__barber" id="reservar__bottom__populares">Reservar</button>
+                </div>
+              </div>
+
+            </section>
+            
+            <div class="text__visitados">Mais visitados</div>
+            <section class="section__visitados" id="container__populares">
+              <div class="populares__barbearias">
+                <div class="vintage__barber_populares">
+                  <img src="imagens/visitados__photos/rating.png" alt="Vintage Barber" class="img__vintagebarber">
+                  <h2 class="texto__vintagebarber" id="titulo__barber__populares">Vintage Barber</h2>
+                  <p class="endereco__vintagebarber" id="endereco__barber__populares">Avenida São Sebastião, 357, São Paulo</p>
+                  <button class="reservar__barber" id="reservar__bottom__populares">Reservar</button>
+                </div>
+              </div>
+              
+              <div class="populares__barbearias">
+                <div class="vintage__barber_populares">
+                  <img src="imagens/visitados__photos/rating(2).png" alt="Vintage Barber" class="img__vintagebarber">
+                  <h2 class="texto__vintagebarber" id="titulo__barber__populares">Vintage Barber</h2>
+                  <p class="endereco__vintagebarber" id="endereco__barber__populares">Avenida São Sebastião, 357, São Paulo</p>
+                  <button class="reservar__barber" id="reservar__bottom__populares">Reservar</button>
+                </div>
+              </div>
+              <div class="populares__barbearias">
+                <div class="vintage__barber_populares">
+                  <img src="imagens/visitados__photos/rating(3).png" alt="Vintage Barber" class="img__vintagebarber">
+                  <h2 class="texto__vintagebarber" id="titulo__barber__populares">Vintage Barber</h2>
+                  <p class="endereco__vintagebarber" id="endereco__barber__populares">Avenida São Sebastião, 357, São Paulo</p>
+                  <button class="reservar__barber" id="reservar__bottom__populares">Reservar</button>
+                </div>
+              </div>
+              <div class="populares__barbearias">
+                <div class="vintage__barber_populares">
+                  <img src="imagens/visitados__photos/rating(4).png" alt="Vintage Barber" class="img__vintagebarber">
+                  <h2 class="texto__vintagebarber" id="titulo__barber__populares">Vintage Barber</h2>
+                  <p class="endereco__vintagebarber" id="endereco__barber__populares">Avenida São Sebastião, 357, São Paulo</p>
+                  <button class="reservar__barber" id="reservar__bottom__populares">Reservar</button>
+                </div>
+              </div>
+              <div class="populares__barbearias">
+                <div class="vintage__barber_populares">
+                  <img src="imagens/visitados__photos/rating(5).png" alt="Vintage Barber" class="img__vintagebarber">
+                  <h2 class="texto__vintagebarber" id="titulo__barber__populares">Vintage Barber</h2>
+                  <p class="endereco__vintagebarber" id="endereco__barber__populares">Avenida São Sebastião, 357, São Paulo</p>
+                  <button class="reservar__barber" id="reservar__bottom__populares">Reservar</button>
+                </div>
+              </div>
+            </section>
+            <footer class="creditos__footer">
+              <div class="text__footer">© 2023 Copyright FSW Barber</div>
+            </footer>
+</body>
+</html>

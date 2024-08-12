@@ -1,0 +1,63 @@
+.text__populares {
+    padding-left: 15rem; 
+    font-size: 25px;
+    color: #ffff;
+}
+
+.populares__barbearias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1b1f;
+    border-radius: 16px;
+    border: 2px solid #26272b;
+    text-align: center;
+    padding: 1rem;
+    width: 220.8px; 
+    height: 295px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 3rem;
+    margin-left: 1em;
+}
+
+.img__vintagebarber__populares   {
+    align-self: center;
+    max-width: 100%; 
+    height: 150px; 
+    width: 200px;
+  }
+
+
+  #titulo__barber__populares {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 16px;
+  }
+  
+  #endereco__barber__populares {
+    color: #838896;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 12px;
+  }
+  
+  #reservar__bottom__populares {
+    background-color: #26272b;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 156px;
+    height: 30px;
+    margin: 1rem 0; 
+    margin-left: 1rem;
+  }
+
+  #container__populares {
+    position: relative;
+    display: flex; 
+    justify-content: center; 
+    gap: 0.5rem; 
+    padding: 0.5rem;
+    padding-left: 2rem;
+  }  

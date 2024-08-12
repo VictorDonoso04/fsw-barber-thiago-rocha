@@ -1,0 +1,88 @@
+.header__1 {
+    background-color: #141518;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+.esquerda__header {
+    padding-left: 5rem;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    display: flex;
+}
+
+.direita__header {
+    padding-right: 5rem;
+    display: flex;
+}   
+
+.button__agendamento {
+    color: white;
+    display: flex; 
+    gap: 10px; 
+    align-items: center; 
+    margin: 2rem;
+}
+
+.calendario__imagem {
+    height: 16px; 
+}
+
+.text_calendario {
+    margin: 0; 
+}
+
+.perfil__header {
+    display: flex;
+    align-items: center;
+    background-color: #8162FF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: auto;
+    width: auto;
+    max-width: 300px;
+    position: relative; 
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; 
+}
+
+.perfil__header::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #221c3d;
+    transition: width 0.3s ease; 
+}
+
+.perfil__header:hover::after {
+    width: 100%; 
+}
+
+.perfil__header:hover {
+    background: linear-gradient(to right, #221c3d, #8162FF); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); 
+    transform: translateY(-4px); 
+}
+
+.imagem__perfil {
+    height: 18px; 
+    margin-right: 10px;
+}
+
+.text__perfil {
+    font-style: normal; 
+    list-style: none; 
+    color: #FFFFFF; 
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.perfil__header:hover .text__perfil {
+    color: #F0F0F0; /* Cor do texto no hover */
+    transform: translateY(-2px); 
+}

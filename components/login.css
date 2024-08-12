@@ -1,0 +1,142 @@
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.esquerda__login {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style:none;
+    padding-top: 5rem;
+    color: #ffff;
+    width: 500px;
+    height: 350px;
+    gap: 10px;
+    justify-content: space-between;
+    margin-left: 15rem;
+}
+.text__h2_login{
+    font-size: 25px;
+}
+.strong__esquerda_login{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    list-style:none;
+    color: #ffff;
+}
+.paragrafo__login{
+    width: 132px;
+    height: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+
+.input__principal {
+    display: flex;
+    margin-top: 4rem;
+    gap: 8px;
+    width: 100%;
+}
+
+.pesquisa__barbearia{
+    background-color: #26272B;
+    color: #1A1B1F;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #838896;
+    width: 100%;
+}
+.pesquisa__barbearia::placeholder {
+  color: #838896; 
+}
+
+.pesquisa__barbearia:focus {
+  outline: none;
+  border-color: #838896; 
+  background-color: #26272B;
+  color: #838896; 
+}
+/* LADO DIREITO */
+
+.direita__login {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .texto__barbearia_recomendados {
+    color: #838896;
+    font-size: 1rem;
+    display: flex;
+    padding-right: 35rem;
+  }
+  
+  
+  .sessao__barbearia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1b1f;
+    border-radius: 16px;
+    border: 2px solid #26272b;
+    text-align: center;
+    padding: 1rem;
+    width: 220.8px; 
+    height: 295px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vintage__barber {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .img__vintagebarber {
+    align-self: center;
+    max-width: 100%; 
+    height: 150px; 
+    width: 200px;
+  }
+
+  #container {
+    position: relative;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 1rem; 
+    padding: 2rem;
+  }
+  
+  #titulo__barber {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 16px;
+  }
+  
+  #endereco__barber {
+    color: #838896;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 12px;
+  }
+  
+  #reservar__bottom {
+    background-color: #26272b;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 156px;
+    height: 30px;
+    margin: 1rem 0; 
+    margin-left: 1rem;
+  }
